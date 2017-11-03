@@ -1,0 +1,176 @@
+html {
+    background-image: url("img/Background2.jpg");
+}
+
+body {
+    margin: 0 auto;
+}
+
+.container {
+    width: 1400px;
+    height: auto;
+    margin: 0 auto;
+    font-family: Verdana, serif;
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    position: sticky;
+    top: 10px;
+    background-color: lightgrey;
+    margin-top: 70px;
+    border: solid 2px black;
+    border-radius: 25px;
+}
+
+nav > ul > li {
+    display: inline-block;
+    padding-top: 40px;
+    text-align: center;
+}
+
+nav > ul {
+    margin: 0 auto;
+}
+
+.li1 {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    right: 325px;
+}
+
+.li2 {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    right: 225px;
+}
+
+.li3 {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    right: 125px;
+}
+
+.li4 {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    right: 25px;
+}
+
+.li1:hover {
+    background-color: white;
+    font-weight: bold;
+    height: 60px;
+}
+
+.li2:hover {
+    background-color: white;
+    font-weight: bold;
+    height: 60px;
+}
+
+.li3:hover {
+    background-color: white;
+    font-weight: bold;
+    height: 60px;
+}
+
+.li4:hover {
+    background-color: white;
+    font-weight: bold;
+    height: 60px;
+}
+
+nav {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    border-bottom: 1px solid black;
+}
+
+main {
+    margin-left: auto;
+    margin-right: auto;
+    height: 600px;
+    width: 900px;
+    margin-top: 100px;
+    background-color: grey;
+    border: solid 2px black;
+    border-radius: 25px;
+}
+
+fieldset {
+}
+
+.Overmij {
+    text-align: center;
+}
+
+.Info {
+    text-align: center;
+}
+
+.Galerij {
+    text-align: center;
+}
+
+.Contact {
+    text-align: center;
+}
+
+.Intro {
+    text-align: center;
+}
+
+header > h1 {
+    position: absolute;
+    top: -10px;
+    left: 100px;
+}
+
+header > h2 {
+    position: absolute;
+    top: 35px;
+    left: 100px;
+}
+
+header > img {
+    position: absolute;
+    left: 50px;
+}
+
+aside {
+    height: 135px;
+    width: 250px;
+    background-color: dimgrey;
+    position: absolute;
+    top: 600px;
+    right: 25px;
+    border: solid 2px black;
+    border-radius: 25px;
+    text-align: center;
+}
+.termsandcondition{
+    font-size: 25%;
+}
+footer{
+    margin-left: auto;
+    margin-right: auto;
+    height: 100px;
+    width: 900px;
+    background-color: grey;
+    border: solid 2px black;
+    border-radius: 25px;
+    margin-top: 0px;
+    text-align: center;
+}

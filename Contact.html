@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Portfolio Website - Contact</title>
+    <link href="Portfolio.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div class="container">
+    <header>
+        <h1>Portfolio website.</h1>
+        <h2 class="Nav">Luke's portfolio website</h2>
+        <nav>
+            <ul>
+                <li class="li1"><a href="Home.html">Home</a></li>
+                <li class="li2"><a href="Galerij.html">Galerij</a></li>
+                <li class="li3"><a href="Contact.html">Contact</a></li>
+                <li class="li4"><a href="Over%20mij.html">Over mij</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2 class="Contact">Contact</h2>
+        <form>
+            <fieldset>
+                <legend>Persoonlijke informatie</legend>
+                <label for="Voornaam">Voornaam:</label> <br>
+                <input id="Voornaam" type="text" name="Voornaam" placeholder="Voornaam"><br>
+                <label for="Achternaam">Achternaam:</label> <br>
+                <input id="Achternaam" type="text" name="Achternaam" placeholder="Achternaam"><br>
+                <label for="Email">Email:</label> <br>
+                <input id="Email" type="email" name="Email" placeholder="Email"><br>
+                <label for="Geslacht">Geslacht:</label><br>
+                <select name="Geslacht" id="Geslacht">
+                    <option value="Overig">Overig</option>
+                    <option value="Man">Man</option>
+                    <option value="Vrouw">Vrouw</option>
+                </select>
+            </fieldset>
+            <fieldset>
+                <legend></legend>
+                <label for="Message">Stuur een berichtje:</label><br>
+                <textarea id="Message" name="Message" rows="6" cols="50" placeholder="Typ hier u bericht"></textarea>
+                <h2 class="TermsAndCondition">Terms &amp; Conditions</h2>
+                <input type="checkbox" name="terms" id="terms">
+                <label for="terms">I accept the Terms and Conditions</label><br><br>
+                <input class="Sumbit" type="submit" name="submut" id="submit" value="Submit Form">
+            </fieldset>
+        </form>
+    </main>
+</div>
+</body>
+</html>
